@@ -9,10 +9,8 @@ int main(void)
 {
 	char c;
 
-	char d;
-
 	c = 'a';
-	d = 'A';
+	c = 'A';
 	while
 		(c <= 'z')
 		{
@@ -22,8 +20,8 @@ int main(void)
 	while
 		(c <= 'Z')
 		{
-			putchar(d);
-			d++;
+			putchar(c);
+			c++;
 		}
 	putchar('\n');
 	return (0);
