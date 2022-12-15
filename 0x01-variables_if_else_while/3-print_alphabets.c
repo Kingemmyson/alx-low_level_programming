@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - a program that prints the alphabet in lowercase
  *
@@ -8,9 +9,10 @@
 int main(void)
 {
 	char c;
+	char d;
 
 	c = 'a';
-	c = 'A';
+	d = 'A';
 	while
 		(c <= 'z')
 		{
@@ -18,10 +20,10 @@ int main(void)
 			c++;
 		}
 	while
-		(c <= 'Z')
+		(d <= 'Z')
 		{
-			putchar(c);
-			c++;
+			putchar(d);
+			d++;
 		}
 	putchar('\n');
 	return (0);
